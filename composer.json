@@ -1,0 +1,16 @@
+{
+  "name": "ueef/packable",
+  "type": "library",
+  "config": {
+    "vendor-dir": "var/vendor"
+  },
+  "require": {
+    "php": ">=7.1",
+    "ueef/assignable": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ueef\\Packable\\": "src"
+    }
+  }
+}
