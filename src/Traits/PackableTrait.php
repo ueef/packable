@@ -8,5 +8,14 @@ namespace Ueef\Packable\Traits {
         {
             return get_object_vars($this);
         }
+
+        public function unpack(array $packed)
+        {
+            foreach ($packed as $key => $value) {
+                if (property_exists($this, $key)) {
+                    $this->{$key} = $value;
+                }
+            }
+        }
     }
 }
