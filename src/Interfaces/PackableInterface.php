@@ -4,7 +4,15 @@ namespace Ueef\Packable\Interfaces {
 
     interface PackableInterface
     {
-        public function pack(): array;
-        public function unpack(array $packed);
+        /**
+         * @return array
+         */
+        public function pack();
+
+        /**
+         * @param array $packed
+         * @return mixed
+         */
+        public function unpack($packed);
     }
 }
