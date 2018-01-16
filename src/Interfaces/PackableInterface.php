@@ -11,7 +11,7 @@ namespace Ueef\Packable\Interfaces {
 
         /**
          * @param array $packed
-         * @return mixed
+         * @return void
          */
         public function unpack($packed);
     }
