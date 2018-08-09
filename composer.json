@@ -6,7 +6,8 @@
     "vendor-dir": "var/vendor"
   },
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "ueef/assignable": "^0.1"
   },
   "autoload": {
     "psr-4": {

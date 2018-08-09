@@ -1,12 +1,16 @@
 <?php
+declare(strict_types=1);
 
-namespace Ueef\Packable\Traits {
+namespace Ueef\Packable\Traits;
 
-    trait PackableTrait
+use Ueef\Assignable\Traits\AssignableTrait;
+
+trait PackableTrait
+{
+    use AssignableTrait;
+
+    public function pack(): array
     {
-        public function pack(): array
-        {
-            return get_object_vars($this);
-        }
+        return get_object_vars($this);
     }
 }
