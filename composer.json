@@ -6,7 +6,7 @@
     "vendor-dir": "var/vendor"
   },
   "require": {
-    "php": ">=5.6"
+    "php": ">=7.1"
   },
   "autoload": {
     "psr-4": {
