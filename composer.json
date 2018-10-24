@@ -7,7 +7,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "ueef/assignable": "^0.1"
+    "ueef/assignable": "*"
   },
   "autoload": {
     "psr-4": {
