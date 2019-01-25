@@ -3,9 +3,8 @@ declare(strict_types=1);
 
 namespace Ueef\Packable\Interfaces;
 
-use Ueef\Assignable\Interfaces\AssignableInterface;
-
-interface PackableInterface extends AssignableInterface
+interface PackableInterface
 {
     public function pack(): array;
+    public static function unpack(array $packed): self;
 }
