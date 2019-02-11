@@ -6,5 +6,10 @@ namespace Ueef\Packable\Interfaces;
 interface PackableInterface
 {
     public function pack(): array;
-    public static function unpack(array $packed): PackableInterface;
+
+    /**
+     * @param array $packed
+     * @return PackableInterface
+     */
+    public static function unpack(array $packed);
 }
