@@ -8,8 +8,7 @@ interface PackableInterface
     public function pack(): array;
 
     /**
-     * @param array $packed
      * @return PackableInterface
      */
-    public static function unpack(array $packed);
+    public function unpack(array $values);
 }
