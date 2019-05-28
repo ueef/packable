@@ -1,12 +1,12 @@
 {
   "name": "ueef/packable",
   "type": "library",
-  "description": "",
+  "description": "Basic interface to selfpaking objects",
   "config": {
     "vendor-dir": "var/vendor"
   },
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.2"
   },
   "autoload": {
     "psr-4": {
