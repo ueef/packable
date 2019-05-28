@@ -10,5 +10,5 @@ interface PackableInterface
     /**
      * @return PackableInterface
      */
-    public function unpack(array $values);
+    public static function unpack(array $values);
 }
